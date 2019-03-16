@@ -7326,7 +7326,7 @@ article .author  {
     position:relative;
     font-size:20px;
     padding:10px;
-    margin-right: 76%;
+    margin-left: 2%;
     margin-top: 32%;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
 }
@@ -7339,8 +7339,8 @@ article .author  {
     position:relative;
     font-size:15px;
     padding:10px;
-    margin-top: 38%;
-    margin-right: 60%;
+    margin-left: 2%;
+    margin-top: 40%;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
 }
 
