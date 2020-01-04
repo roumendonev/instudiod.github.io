@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+
+@-webkit-keyframes test {
+    0% {
+        background-image: url('01_mixedUse.jpg');
+    }
+    25% {
+        background-image: url('01_residential.jpg');
+    }
+    50% {
+        background-image: url('01_houses.jpg');
+    }
+    75% {
+        background-image: url('01_interiors.jpg');
+    }
+    100% {
+        background-image: url('01_residential.jpg');
+    }
+}
+
+
+
+.background {
+
+    width: 100%;
+    height: 100vh;
+    background: url(01_mixedUse.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: block;
+}
+
+.background:hover {
+    -webkit-animation-name: test;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    width: 100%;
+    height: 100vh;
+    background: url(01_houses.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.logo a{
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: white;
+    color: white;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+.photo {
+    background-image: url(00_Title.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+
+    display: block;
+    width: 190px;
+    height: 190px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+.photo:hover {
+    background-size: 500px;
+}
+
+
+
+@media(max-width: 786px) {
+
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+}
