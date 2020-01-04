@@ -1695,7 +1695,6 @@ pre code {
     padding-left: 0%;
     padding-right: 0%;
     max-width: 1920px;
-
 }
 
 .project-fluid
@@ -1741,6 +1740,7 @@ pre code {
     padding-bottom: 0px;
     max-width: 1920px;
     max-height: 600px;
+
 }
 
 .row-center
@@ -7267,22 +7267,7 @@ article .author  {
     border: #ffffff;
     border-style: solid;
     border-width: 1px;
-}
 
-
-.hovereffect .overlayXXX
-{
-    color: #ffffff;;
-    width:100%;
-    height:100%;
-    position:absolute;
-    overflow:hidden;
-    top:0;
-    left:0;
-    opacity:0;
-    background-color:transparent;
-    -webkit-transition:all .1s ease-in-out;
-    transition:all .1s ease-in-out
 }
 
 .hovereffect .overlay
@@ -7297,6 +7282,18 @@ article .author  {
     background-color:transparent;
 }
 
+.hovereffect-title .overlay
+{
+    color: #ffffff;;
+    width:100%;
+    height:100%;
+    position:center;
+    text-align: center;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:transparent;
+}
 
 .hovereffect img
 {
