@@ -46,7 +46,17 @@ header {
     background-position: center;
     display: block;
 }
-
+.background-title {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-color: #000000;
+    background-color: transparent;
+    background: transparent;
+}
 /*
 .background:hover {
     -webkit-animation-name: test;
