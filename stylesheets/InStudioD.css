@@ -1683,9 +1683,7 @@ pre code {
     padding-top: 18px;
     padding-right: 0px;
     padding-left: 0px;
-
-
-}
+  }
 
 .body-fluid
 {
@@ -1705,6 +1703,7 @@ pre code {
     padding-left: 0%;
     padding-right: 0%;
     max-width: 1920px;
+    background: transparent;
 }
 
 .body-projects
@@ -1759,13 +1758,17 @@ pre code {
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #000000;
-
+    background-color: transparent;
+    background: transparent;
 }
+
+
+
 .row {
     margin-left: -15px;
     margin-right: -15px;
@@ -4706,10 +4709,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default
 {
-
     background-color: #ffffff;
     border-color: transparent;
 }
+
+.navbar-tilte
+{
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .navbar-default .navbar-brand {
     color: #000000;
 
