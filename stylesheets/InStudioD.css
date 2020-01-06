@@ -1764,8 +1764,15 @@ pre code {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: #000000;
-
 }
+
+.container-fluid-title {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
 .row {
     margin-left: -15px;
     margin-right: -15px;
