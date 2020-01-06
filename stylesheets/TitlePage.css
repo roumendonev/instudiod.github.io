@@ -2,8 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-
-
 }
 
 header {
@@ -14,22 +12,22 @@ header {
 /* animation on title page */
 @-webkit-keyframes test {
     0% {
-        background-image: url('01_residential.jpg');
+        background-image: url('../ImagesBackground/01_residential.jpg');
     }
     20% {
-        background-image: url('01_interiors.jpg');
+        background-image: url('../ImagesBackground/01_interiors.jpg');
     }
     40% {
-        background-image: url('01_houses.jpg');
+        background-image: url('../ImagesBackground/01_houses.jpg');
     }
     60% {
-        background-image: url('01_interiors.jpg');
+        background-image: url('../ImagesBackground/01_interiors.jpg');
     }
     60% {
-        background-image: url('01_residential.jpg');
+        background-image: url('../ImagesBackground/01_residential.jpg');
     }
     100% {
-        background-image: url('01_mixedUse.jpg');
+        background-image: url('../ImagesBackground/01_mixedUse.jpg');
     }
 }
 /* animation on title page */
