@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>InStudio D</title>
     <link rel="stylesheet" href="stylesheets/InStudioD.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts/jquery-1.10.2.js"></script>
     <script src="scripts/bootstrap.js"></script>
-    <link rel="stylesheet" href="stylesheets/cssbox.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="stylesheets/ProjectPage.css">
 
 </head>
-<body>
 
 <header>
     <div class="navbar navbar-default navbar-fixed-top">
@@ -40,155 +43,69 @@
         <div class="body-fluid" >
             <div class="col-md-12">
                 <div class="body-reference">
-                    <h class="body-tile"> House in Kniajevo </h>
+                    <h class="project-tile"> House in Gorubliane, Sofia </h>
                 </div>
             </div>
         </div>
     </div>
-
-
 </header>
 
 <main>
-    <!-- old code -->
-    <!--
-
 
     <div class="body-fluid" style="margin: auto; padding: 0%">
         <div class="row-fluid">
             <div class="col-md-4" style="margin: 0%; padding: 0%">
                 <div class="hovereffect">
-                    <img src="Images_03_houses/Kniajevo/01_thmb.jpg" class="img-responsive" alt="">
+                    <img class = "img-responsive" src="Images_03_houses/Kniajevo/01_thmb.jpg">
                     <div class="overlay">
-                        <h3> </h3>
-                        <a class="info" href="H_lozen.html"></a>
+                        <a class="info" href="Images_03_houses/Kniajevo/01.jpg" data-lightbox="photos"></a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4" style="margin: 0%; padding: 0%">
                 <div class="hovereffect">
-                    <img src="Images_03_houses/Kniajevo/02_thmb.jpg" class="img-responsive" alt="">
+                    <img class = "img-responsive" src="Images_03_houses/Kniajevo/02_thmb.jpg">
                     <div class="overlay">
-                        <h3> </h3>
-                        <a class="info" href="H_kokaliane.html"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="margin: 0%; padding: 0%">
-                <div class="hovereffect">
-                    <img src="Images_03_houses/Kniajevo/03_thmb.jpg" class="img-responsive" alt="">
-                    <div class="overlay">
-                        <h3> </h3>
-                        <a class="info" href="H_bistrica.html"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="margin: 0%; padding: 0%">
-                <div class="hovereffect">
-                    <img src="Images_03_houses/Kniajevo/04_thmb.jpg" class="img-responsive" alt="">
-                    <div class="overlay">
-                        <h3> </h3>
-                        <a class="info" href="H_gorublianeIancho.html"></a>
+                        <a class="info" href="Images_03_houses/Kniajevo/02.jpg" data-lightbox="photos"></a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4" style="margin: 0%; padding: 0%">
                 <div class="hovereffect">
-                    <img src="Images_03_houses/Kniajevo/05_thmb.jpg" class="img-responsive" alt="">
+                    <img class = "img-responsive" src="Images_03_houses/Kniajevo/03_thmb.jpg">
                     <div class="overlay">
-                        <h3> </h3>
-                        <a class="info" href="H_kniajevo.html"></a>
+                        <a class="info" href="Images_03_houses/Kniajevo/03.jpg" data-lightbox="photos"></a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4" style="margin: 0%; padding: 0%">
                 <div class="hovereffect">
-                    <img src="Images_03_houses/Kniajevo/05_thmb.jpg" class="img-responsive" alt="">
+                    <img class = "img-responsive" src="Images_03_houses/Kniajevo/04_thmb.jpg">
                     <div class="overlay">
-                        <h3> </h3>
-                        <a class="info" href="H_kniajevo.html"></a>
+                        <a class="info" href="Images_03_houses/Kniajevo/04.jpg" data-lightbox="photos"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="margin: 0%; padding: 0%">
+                <div class="hovereffect">
+                    <img class = "img-responsive" src="Images_03_houses/Kniajevo/05_thmb.jpg">
+                    <div class="overlay">
+                        <a class="info" href="Images_03_houses/Kniajevo/05.jpg" data-lightbox="photos"></a>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
--->
 
-    <div class="row-fluid">
-        <div class="col-md-4" style="margin: 0%; padding: 0%">
-            <div class="cssbox" >
-                <a id="image1" href="#image1">
-                    <img class="cssbox_thumb" src="Images_03_houses/Kniajevo/01_thmb.jpg">
-                        <span class="cssbox_full">
-                            <img src="Images_03_houses/Kniajevo/01.jpg">
-                        </span>
-                </a>
-                <a class="cssbox_close" href="#void"></a>
-                <a class="cssbox_next" href="#image2">&gt;</a>
-            </div>
-        </div>
-
-        <div class="col-md-4" style="margin: 0%; padding: 0%">
-            <div class="cssbox">
-                <a id="image2" href="#image2">
-                    <img class="cssbox_thumb" src="Images_03_houses/Kniajevo/02_thmb.jpg">
-                    <span class="cssbox_full">
-                        <img src="Images_03_houses/Kniajevo/02.jpg">
-                    </span>
-                </a>
-                <a class="cssbox_close" href="#void"></a>
-                <a class="cssbox_prev" href="#image1">&lt;</a>
-                <a class="cssbox_next" href="#image3">&gt;</a>
-            </div>
-        </div>
-
-        <div class="col-md-4" style="margin: 0%; padding: 0%">
-            <div class="cssbox">
-                <a id="image3" href="#image3">
-                    <img class="cssbox_thumb" src="Images_03_houses/Kniajevo/03_thmb.jpg">
-                    <span class="cssbox_full">
-                <img src="Images_03_houses/Kniajevo/03.jpg">
-            </span>
-                </a>
-                <a class="cssbox_close" href="#void"></a>
-                <a class="cssbox_prev" href="#image2">&lt;</a>
-                <a class="cssbox_next" href="#image4">&gt;</a>
-            </div>
-        </div>
-
-        <div class="col-md-4" style="margin: 0%; padding: 0%">
-            <div class="cssbox">
-                <a id="image4" href="#image4">
-                    <img class="cssbox_thumb" src="Images_03_houses/Kniajevo/04_thmb.jpg">
-                    <span class="cssbox_full">
-                <img src="Images_03_houses/Kniajevo/04.jpg">
-            </span>
-                </a>
-                <a class="cssbox_close" href="#void"></a>
-                <a class="cssbox_prev" href="#image3">&lt;</a>
-                <a class="cssbox_next" href="#image5">&gt;</a>
-            </div>
-        </div>
-
-        <div class="col-md-4" style="margin: 0%; padding: 0%">
-            <div class="cssbox">
-                <a id="image5" href="#image5">
-                    <img class="cssbox_thumb" src="Images_03_houses/Kniajevo/05_thmb.jpg">
-                    <span class="cssbox_full">
-                <img src="Images_03_houses/Kniajevo/05.jpg">
-            </span>
-                </a>
-                <a class="cssbox_close" href="#void"></a>
-                <a class="cssbox_prev" href="#image4">&lt;</a>
-            </div>
-        </div>
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
 </main>
 
-</body>
+
 </html>
