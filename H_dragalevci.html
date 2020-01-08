@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>InStudio D</title>
     <link rel="stylesheet" href="stylesheets/InStudioD.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts/jquery-1.10.2.js"></script>
     <script src="scripts/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
 </head>
 
 <body>
@@ -64,33 +69,39 @@
         </div>
 
         <div class="col-md-9">
-            <div class="slideshow-container">
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides">
-                    <img src="Images_03_houses/Dragalevci/01.jpg" onclick="plusSlides(1)">
+            <div class="col-md-4" style="margin: 0%; padding: 0%">
+                <div class="hovereffect">
+                    <img class = "img-responsive" src="Images_03_houses/Dragalevci/01_thmb.jpg">
+                    <div class="overlay">
+                        <a class="info" href="Images_03_houses/Dragalevci/01.jpg" data-lightbox="photos"></a>
+                    </div>
                 </div>
-                <div class="mySlides">
-                    <img src="Images_03_houses/Dragalevci/02.jpg" onclick="plusSlides(1)">
-                </div>
-                <div class="mySlides">
-                    <img src="Images_03_houses/Dragalevci/03.jpg" onclick="plusSlides(1)">
-                </div>
-
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
 
-            <br>
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+            <div class="col-md-4" style="margin: 0%; padding: 0%">
+                <div class="hovereffect">
+                    <img class = "img-responsive" src="Images_03_houses/Dragalevci/02_thmb.jpg">
+                    <div class="overlay">
+                        <a class="info" href="Images_03_houses/Dragalevci/02.jpg" data-lightbox="photos"></a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-4" style="margin: 0%; padding: 0%">
+                <div class="hovereffect">
+                    <img class = "img-responsive" src="Images_03_houses/Dragalevci/03_thmb.jpg">
+                    <div class="overlay">
+                        <a class="info" href="Images_03_houses/Dragalevci/03.jpg" data-lightbox="photos"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
+
     </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </main>
 
 </body>
