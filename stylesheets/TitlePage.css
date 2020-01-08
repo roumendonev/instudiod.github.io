@@ -48,12 +48,9 @@ header {
 .background-title {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-    border-bottom-style: solid;
-    border-bottom-width: 0px;
-    border-bottom-color: #000000;
-    background: transparent;
+    padding-left: 1px;
+    padding-right: 1px;
+    max-width: 1920px;
 }
 
 .content {
