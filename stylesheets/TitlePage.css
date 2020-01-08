@@ -42,6 +42,7 @@ header {
     background-size: cover;
     background-position: center;
     display: block;
+    max-width: 1920px;
 }
 
 /* changing images on title page */
