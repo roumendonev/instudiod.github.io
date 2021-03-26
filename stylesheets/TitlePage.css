@@ -12,16 +12,16 @@ header {
 /* animation on title page */
 @-webkit-keyframes test {
     0% {
-        background-image: url('../ImagesBackground/01_residential.jpg');
+        background-image: url('../ImagesBackground/02_residential.jpg');
     }
     20% {
-        background-image: url('../ImagesBackground/01_interiors.jpg');
+        background-image: url('../ImagesBackground/02_interiors.jpg');
     }
     40% {
         background-image: url('../ImagesBackground/01_houses.jpg');
     }
     60% {
-        background-image: url('../ImagesBackground/01_interiors.jpg');
+        background-image: url('../ImagesBackground/02_interiors.jpg');
     }
     60% {
         background-image: url('../ImagesBackground/01_residential.jpg');
