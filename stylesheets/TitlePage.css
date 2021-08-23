@@ -14,17 +14,20 @@ header {
     0% {
         background-image: url('../ImagesBackground/02_residential.jpg');
     }
-    20% {
+    15% {
         background-image: url('../ImagesBackground/02_interiors.jpg');
     }
-    40% {
+    30% {
         background-image: url('../ImagesBackground/01_houses.jpg');
     }
-    60% {
+    50% {
         background-image: url('../ImagesBackground/02_interiors.jpg');
     }
-    60% {
+    70% {
         background-image: url('../ImagesBackground/01_residential.jpg');
+    }
+    85% {
+        background-image: url('../ImagesBackground/05.jpg');
     }
     100% {
         background-image: url('../ImagesBackground/01_mixedUse.jpg');
