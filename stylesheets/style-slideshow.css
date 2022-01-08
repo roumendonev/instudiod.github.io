@@ -17,19 +17,20 @@ section {
   flex-wrap: wrap;
 }
 
-
 .gallery-item {
   flex: 1 1 auto;
   flex-basis: 175px;
   margin: .07em;
-  max-width: 450px;
-  max-height: 225px;
+  max-width: 478px;
+  max-height: 240px;
   position: relative;
   cursor: pointer;
   overflow: hidden;
 }
-.gallery-item.item-2x3 {
-  flex-basis: calc(175px * 0.666);
+
+
+.gallery-item.item-1x1 {
+  flex-basis: calc(400px * 1);
 }
 .gallery-item.item-3x4 {
   flex-basis: calc(175px * 0.75);
@@ -111,7 +112,7 @@ section {
   width: auto;
 }
 .gallery-item .placeholder {
-  filter: blur(20px);
+  filter: blur(0px);
 }
 
 .lightbox-wrapper {
