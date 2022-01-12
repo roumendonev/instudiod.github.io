@@ -11,25 +11,41 @@ header {
 
 /* animation on title page */
 @-webkit-keyframes test {
+
+    
     0% {
-        background-image: url('../ImagesBackground/02_residential.jpg');
-        animation-delay: 6s;
+        background-image: url('../ImagesBackground/01_interiors.jpg');      
     }
-    25% {
-        background-image: url('../ImagesBackground/02_interiors.jpg');
-        animation-delay: 18s;
+   
+    10% {
+        background-image: url('../ImagesBackground/01_residential.jpg');       
     }
-    50% {
-        background-image: url('../ImagesBackground/01_houses.jpg');
-        animation-delay: 24s;
+
+    20% {
+        background-image: url('../ImagesBackground/01_houses.jpg');     
     }
-    75% {
+
+    40% {
+        background-image: url('../ImagesBackground/03_residential.jpg');     
+    }
+
+    55% {
+        background-image: url('../ImagesBackground/02_interiors.jpg');     
+    }
+
+    70% {
+        background-image: url('../ImagesBackground/03_interiors.jpg');     
+    }
+
+    80% {
+        background-image: url('../ImagesBackground/02_residential.jpg');      
+    }
+
+    95% {
         background-image: url('../ImagesBackground/01_mixedUse.jpg');
-        animation-delay: 32s;
     }
     100% {
-        background-image: url('../ImagesBackground/05.jpg');
-        animation-delay: 38s;
+        background-image: url('../ImagesBackground/Blank.jpg');
     }
 }
 /* animation on title page */
@@ -37,7 +53,7 @@ header {
 
 .background {
     -webkit-animation-name: test;
-    -webkit-animation-duration: 30s;
+    -webkit-animation-duration: 50s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate-reverse;
     -webkit-animation-timing-function: linear infinite 0s;
@@ -47,6 +63,7 @@ header {
     background-position: center;
     display: block;
     max-width: 1920px;
+    
 }
 
 /* changing images on title page */
