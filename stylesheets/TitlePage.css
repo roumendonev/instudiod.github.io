@@ -13,10 +13,11 @@ header {
 @-webkit-keyframes test {
 
     
+  
     0% {
         background-image: url('../ImagesBackground/01_interiors.jpg');      
     }
-   
+ 
     10% {
         background-image: url('../ImagesBackground/01_residential.jpg');       
     }
@@ -25,15 +26,15 @@ header {
         background-image: url('../ImagesBackground/01_houses.jpg');     
     }
 
-    40% {
+    35% {
         background-image: url('../ImagesBackground/03_residential.jpg');     
     }
 
-    55% {
+    50% {
         background-image: url('../ImagesBackground/02_interiors.jpg');     
     }
 
-    70% {
+    65% {
         background-image: url('../ImagesBackground/03_interiors.jpg');     
     }
 
@@ -41,12 +42,10 @@ header {
         background-image: url('../ImagesBackground/02_residential.jpg');      
     }
 
-    95% {
+    100% {
         background-image: url('../ImagesBackground/01_mixedUse.jpg');
     }
-    100% {
-        background-image: url('../ImagesBackground/Blank.jpg');
-    }
+    
 }
 /* animation on title page */
 
