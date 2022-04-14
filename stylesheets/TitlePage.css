@@ -18,27 +18,27 @@ header {
         background-image: url('../ImagesBackground/01_interiors.jpg');      
     }
  
-    10% {
+    15% {
         background-image: url('../ImagesBackground/01_residential.jpg');       
     }
 
-    20% {
+    30% {
         background-image: url('../ImagesBackground/01_houses.jpg');     
     }
 
-    35% {
+    45% {
         background-image: url('../ImagesBackground/03_residential.jpg');     
     }
 
-    50% {
+    60% {
         background-image: url('../ImagesBackground/02_interiors.jpg');     
     }
 
-    65% {
+    75% {
         background-image: url('../ImagesBackground/03_interiors.jpg');     
     }
 
-    80% {
+    90% {
         background-image: url('../ImagesBackground/02_residential.jpg');      
     }
 
