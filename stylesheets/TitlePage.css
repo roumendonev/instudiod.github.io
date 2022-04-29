@@ -16,61 +16,26 @@ header {
     0% {
         background-image: url('../ImagesBackground/01_interiors.jpg');           
     }
-
-    7% {
-        background-image: url('../ImagesBackground/Blank.jpg');         
-    }
-
     15% {
         background-image: url('../ImagesBackground/01_residential.jpg');      
     }
-
-    27% {
-        background-image: url('../ImagesBackground/Blank.jpg');               
-    }
-
-
     30% {
         background-image: url('../ImagesBackground/01_houses.jpg');            
     }
-
-    37% {
-        background-image: url('../ImagesBackground/Blank.jpg');                
-    }
-
     45% {
         background-image: url('../ImagesBackground/03_residential.jpg');        
     }
-
-    52% {
-        background-image: url('../ImagesBackground/Blank.jpg');                 
-    }
-
     60% {
         background-image: url('../ImagesBackground/02_interiors.jpg');                  
     }
-
-    67% {
-        background-image: url('../ImagesBackground/Blank.jpg');                
-    }
-
     75% {
-        background-image: url('../ImagesBackground/03_interiors.jpg');         
+        background-image: url('../ImagesBackground/03_interiors.jpg');  
+        opacity: 1;       
     }
-
-    82% {
-        background-image: url('../ImagesBackground/Blank.jpg');           
-    }
-
     90% {
         background-image: url('../ImagesBackground/02_residential.jpg'); 
-        opacity: 1;  
-    }
-
-    95% {
-        background-image: url('../ImagesBackground/Blank.jpg');             
-    }
-
+        opacity: 1;
+    }   
     100% {
         background-image: url('../ImagesBackground/01_mixedUse.jpg');  
     }
