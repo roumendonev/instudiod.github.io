@@ -13,37 +13,66 @@ header {
 @-webkit-keyframes test {
 
     
-  
     0% {
-        background-image: url('../ImagesBackground/01_interiors.jpg');      
-    }
- 
-    15% {
-        background-image: url('../ImagesBackground/01_residential.jpg');       
+        background-image: url('../ImagesBackground/01_interiors.jpg');           
     }
 
+    7% {
+        background-image: url('../ImagesBackground/Blank.jpg');         
+    }
+
+    15% {
+        background-image: url('../ImagesBackground/01_residential.jpg');      
+    }
+
+    27% {
+        background-image: url('../ImagesBackground/Blank.jpg');               
+    }
+
+
     30% {
-        background-image: url('../ImagesBackground/01_houses.jpg');     
+        background-image: url('../ImagesBackground/01_houses.jpg');            
+    }
+
+    37% {
+        background-image: url('../ImagesBackground/Blank.jpg');                
     }
 
     45% {
-        background-image: url('../ImagesBackground/03_residential.jpg');     
+        background-image: url('../ImagesBackground/03_residential.jpg');        
+    }
+
+    52% {
+        background-image: url('../ImagesBackground/Blank.jpg');                 
     }
 
     60% {
-        background-image: url('../ImagesBackground/02_interiors.jpg');     
+        background-image: url('../ImagesBackground/02_interiors.jpg');                  
+    }
+
+    67% {
+        background-image: url('../ImagesBackground/Blank.jpg');                
     }
 
     75% {
-        background-image: url('../ImagesBackground/03_interiors.jpg');     
+        background-image: url('../ImagesBackground/03_interiors.jpg');         
+    }
+
+    82% {
+        background-image: url('../ImagesBackground/Blank.jpg');           
     }
 
     90% {
-        background-image: url('../ImagesBackground/02_residential.jpg');      
+        background-image: url('../ImagesBackground/02_residential.jpg'); 
+        opacity: 1;  
+    }
+
+    95% {
+        background-image: url('../ImagesBackground/Blank.jpg');             
     }
 
     100% {
-        background-image: url('../ImagesBackground/01_mixedUse.jpg');
+        background-image: url('../ImagesBackground/01_mixedUse.jpg');  
     }
     
 }
@@ -51,17 +80,21 @@ header {
 
 
 .background {
+
     -webkit-animation-name: test;
     -webkit-animation-duration: 50s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate-reverse;
-    -webkit-animation-timing-function: linear infinite 0s;
+    -webkit-animation-timing-function: ease-in-out;
+    
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
     display: block;
     max-width: 1920px;
+    transition: all 0,3s ease;
+    
     
 }
 
