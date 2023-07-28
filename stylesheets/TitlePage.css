@@ -16,28 +16,32 @@ header {
     0% {
         background-image: url('../ImagesBackground/01_interiors.jpg');           
     }
-    15% {
+    10% {
         background-image: url('../ImagesBackground/01_residential.jpg');      
     }
-    30% {
+    20% {
         background-image: url('../ImagesBackground/01_houses.jpg');            
     }
-    45% {
+    30% {
         background-image: url('../ImagesBackground/03_residential.jpg');        
     }
-    60% {
+    40% {
         background-image: url('../ImagesBackground/02_interiors.jpg');                  
     }
-    75% {
+    50% {
         background-image: url('../ImagesBackground/03_interiors.jpg');  
         opacity: 1;       
     }
-    90% {
+    60% {
         background-image: url('../ImagesBackground/02_residential.jpg'); 
         opacity: 1;
     }   
-    100% {
+    80% {
         background-image: url('../ImagesBackground/01_mixedUse.jpg');  
+    }
+
+    100% {
+        background-image: url('../ImagesBackground/02_mixedUse.jpg');  
     }
     
 }
