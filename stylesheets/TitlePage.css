@@ -23,7 +23,7 @@ header {
         background-image: url('../ImagesBackground/01_houses.jpg');            
     }
     30% {
-        background-image: url('../ImagesBackground/03_residential.jpg');        
+        background-image: url('../ImagesBackground/02_mixedUse.jpg');        
     }
     40% {
         background-image: url('../ImagesBackground/02_interiors.jpg');                  
@@ -41,7 +41,7 @@ header {
     }
 
     100% {
-        background-image: url('../ImagesBackground/02_mixedUse.jpg');  
+        background-image: url('../ImagesBackground/03_residential.jpg');  
     }
     
 }
