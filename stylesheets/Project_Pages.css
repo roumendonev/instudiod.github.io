@@ -32,6 +32,7 @@ section {
 .gallery-item.item-1x1 {
   flex-basis: calc(400px * 1);
 }
+
 .gallery-item.item-3x4 {
   flex-basis: calc(175px * 0.75);
 }

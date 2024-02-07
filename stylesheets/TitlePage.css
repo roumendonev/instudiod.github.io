@@ -73,7 +73,7 @@ header {
     margin-left: auto;
     padding-left: 1px;
     padding-right: 1px;
-    max-width: 1920px;
+    max-width: 1920px;    
 }
 
 .content {
@@ -179,6 +179,17 @@ nav ul li a {
 }
 
 
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+  }
+
+
 
 @media(max-width: 786px) {
 
@@ -212,5 +223,4 @@ nav ul li a {
     .menu-icon {
         display: block;
     }
-
 }
