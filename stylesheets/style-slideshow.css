@@ -20,9 +20,9 @@ section {
 
 .gallery-item {
   flex: 1 1 auto;
-  flex-basis: 174px;
+  flex-basis: 175px;
   margin: .07em;
-  max-width: 33%;
+  max-width: 475px;
   max-height: 240px;
   position: relative;
   cursor: pointer;
