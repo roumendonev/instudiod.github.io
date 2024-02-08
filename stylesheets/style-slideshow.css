@@ -15,17 +15,20 @@ section {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .gallery-item {
   flex: 1 1 auto;
   flex-basis: 174px;
   margin: .07em;
-  max-width: 475px;
+  max-width: 33%;
   max-height: 240px;
   position: relative;
   cursor: pointer;
   overflow: hidden;
+
+  
 }
 
 
@@ -49,6 +52,7 @@ section {
 }
 .gallery-item.item-2x1 {
   flex-basis: calc(180px * 2);
+  width: 33.33333333%;
 }
 .gallery-item::after {
   content: "";
