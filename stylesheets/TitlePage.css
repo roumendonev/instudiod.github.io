@@ -62,6 +62,7 @@ header {
     background-position: center;
     display: block;
     max-width: 1920px;
+
     transition: all 0,3s ease;
     
     
@@ -74,6 +75,7 @@ header {
     padding-left: 1px;
     padding-right: 1px;
     max-width: 1920px;    
+   
 }
 
 .content {
@@ -224,3 +226,7 @@ nav ul li a {
         display: block;
     }
 }
+
+
+
+

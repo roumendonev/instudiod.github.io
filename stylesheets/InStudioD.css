@@ -1023,9 +1023,13 @@ th {
 .glyphicon-menu-hamburger:before {
     content: "\e236";
 }
+
+/*
 .glyphicon-modal-window:before {
     content: "\e237";
 }
+*/
+
 .glyphicon-oil:before {
     content: "\e238";
 }
@@ -1721,17 +1725,18 @@ pre code {
 }
 
 
-.project-tile
+.body-tile
 {
     padding-left:3%;
     padding-right: 1%;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 18px;
-    alignment: center;
+    align-content: center;
     color: #000000;
-    background: rgb(169, 226, 95);
+   
 }
+
 
 .tile-LEED-black
 {  
@@ -1759,7 +1764,7 @@ pre code {
 }
 
 
-.project-tile-LEED
+.body-tile-LEED
 {
     padding-left:3%;
     padding-right: 1%;
@@ -1795,9 +1800,6 @@ pre code {
 }
 
 
-
-
-
 .body-fluid
 {
     margin: auto;
@@ -1806,7 +1808,6 @@ pre code {
     padding-left: 0%;
     padding-right: 0%;
     max-width: 1920px;
-
 }
 
 .project-fluid
@@ -3777,12 +3778,18 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
     width: 100%;
 }
+
+/* deactivated because of modal in styles.css
+
+
 .fade {
     opacity: 0;
     -webkit-transition: opacity 0.15s linear;
     -o-transition: opacity 0.15s linear;
     transition: opacity 0.15s linear;
 }
+*/
+
 .fade.in {
     opacity: 1;
 }
@@ -6249,6 +6256,7 @@ button.list-group-item-danger.active:focus {
     padding: 9px;
     border-radius: 3px;
 }
+/*
 .close {
     float: right;
     font-size: 22.5px;
@@ -6274,6 +6282,8 @@ button.close {
     border: 0;
     -webkit-appearance: none;
 }
+
+
 .modal-open {
     overflow: hidden;
 }
@@ -6391,11 +6401,15 @@ button.close {
         width: 300px;
     }
 }
+
 @media (min-width: 992px) {
     .modal-lg {
         width: 1050px;
     }
 }
+
+*/
+
 .tooltip {
     position: absolute;
     z-index: 1070;
@@ -6892,14 +6906,19 @@ button.close {
 .pager:before,
 .pager:after,
 .panel-body:before,
-.panel-body:after,
-.modal-header:before,
-.modal-header:after,
-.modal-footer:before,
-.modal-footer:after {
+.panel-body:after
+ {
     content: " ";
     display: table;
 }
+/*.modal-header:before,
+.modal-header:after,
+.modal-footer:before,
+.modal-footer:after*/
+
+
+
+
 .clearfix:after,
 .dl-horizontal dd:after,
 .container:after,
@@ -6913,11 +6932,13 @@ button.close {
 .navbar-header:after,
 .navbar-collapse:after,
 .pager:after,
-.panel-body:after,
-.modal-header:after,
-.modal-footer:after {
+.panel-body:after {
     clear: both;
 }
+/*.modal-header:after,
+.modal-footer:after*/
+
+*/
 .center-block {
     display: block;
     margin-left: auto;
@@ -7420,9 +7441,13 @@ a.list-group-item-danger.active:focus {
 .panel-default .close {
     color: #2c3e50;
 }
+
+/*
 .modal .close {
     color: #2c3e50;
 }
+*/
+
 .popover {
     color: #2c3e50;
 }

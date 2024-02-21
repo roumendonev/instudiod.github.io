@@ -664,7 +664,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1420px;
   }
 }
 .row {
@@ -4940,6 +4940,7 @@ textarea.form-control-lg {
   position: relative;
   flex: 1 1 auto;
   padding: var(--bs-modal-padding);
+  text-align: left;
 }
 
 .modal-footer {
@@ -10649,6 +10650,7 @@ header.masthead .masthead-heading {
 }
 
 .timeline {
+  
   position: relative;
   padding: 0;
   list-style: none;
@@ -10768,12 +10770,14 @@ header.masthead .masthead-heading {
   color: inherit;
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
+  text-align: center;
   text-transform: none;
 }
 
 
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
+  text-align: justify;
   margin-bottom: 0;
 }
 
