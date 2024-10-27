@@ -40,9 +40,15 @@ header {
         background-image: url('../ImagesBackground/01_mixedUse.jpg');  
     }
 
-    100% {
+    90% {
         background-image: url('../ImagesBackground/03_residential.jpg');  
     }
+
+    100% {
+        background-image: url('../ImagesBackground/03_mixedUse.jpg');  
+    }
+
+
     
 }
 /* animation on title page */
